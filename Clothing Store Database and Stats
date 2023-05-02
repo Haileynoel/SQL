@@ -1,0 +1,21 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER);
+
+INSERT INTO store VALUES (1, "Pants", 20, 30.00);
+INSERT INTO store VALUES (2, "Shorts", 22, 25.00);
+INSERT INTO store VALUES (3, "Dresses", 30, 27.50);
+INSERT INTO store VALUES (4, "Skirts", 25, 24.00);
+INSERT INTO store VALUES (5, "Shirts", 50, 15.00);
+INSERT INTO store VALUES (6, "Tank Tops", 29, 10.00);
+INSERT INTO store VALUES (7, "Hats", 20, 14.50);
+INSERT INTO store VALUES (8, "Socks", 30, 9.50);
+INSERT INTO store VALUES (9, "Shoes", 25, 21.00);
+INSERT INTO store VALUES (10,"Purses", 22, 30.00);
+INSERT INTO store VALUES (11, "Sleepwear", 30, 27.00);
+INSERT INTO store VALUES (12, "Necklaces", 20, 15.00);
+INSERT INTO store VALUES (13, "Earrings", 15, 13.00);
+INSERT INTO store VALUES (14, "Rings", 17, 10.00);
+INSERT INTO store VALUES (15, "Bracelets", 15, 10.00);
+
+SELECT * FROM store ORDER BY price;
+
+SELECT SUM(quantity) FROM store
