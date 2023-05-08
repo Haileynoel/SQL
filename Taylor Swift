@@ -1,0 +1,58 @@
+CREATE TABLE Taylor_Swift_songs (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, album_name TEXT, popularity INTEGER, weeks INTEGER, cowriter TEXT, release_year INTEGER);
+
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Blank Space', '1989', 1, 36, 'Max Martin', 2014);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('I Don’t Wanna Live Forever', 'Orphan',2,23,'Jack Antonoff',2016);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Shake It Off', '1989', 3, 50, 'Max Martin', 2014);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Love Story', 'Fearless', 4, 49, 'none',2008);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Look What You Made Me Do', 'Reputation', 5, 20, 'Jack Antonoff', 2017);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Wildest Dreams', '1989', 6, 27,'Max Martin', 2014);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('You Belong with Me', 'Fearless', 7, 50, 'Liz Rose', 2008);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Lover', 'Lover', 8, 22, 'none', 2019);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('I Knew You Were Trouble', 'Red', 9, 36, 'Max Martin', 2012);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('We Are Never Ever Getting Back Together', 'Red', 10, 24, 'Max Martin', 2012);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('All Too Well TV', 'Red TV', 11, 15, 'Liz Rose', 2021);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Me!', 'Lover', 12, 20, 'Brendon Urie', 2019);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('You Need to Calm Down','Lover', 13,21, 'Joel Little', 2019);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Delicate', 'Reputation', 14, 35, 'Max Martin', 2017);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Bad Blood','1989',15, 25,'Max Martin', 2014);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Style', '1989', 16, 32,'Max Martin', 2014);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Willow','Evermore',17,20,'Aaron Dessner',2020);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Cardigan','Folklore',18,14,'Aaron Dessner',2020);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Ready for It','Reputation',19,20, 'Max Martin', 2017);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('22','Red',20,20,'Max Martin',2012);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Exile','Folklore',21, 5, 'Justin Vernon', 2020);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Red','Red', 22, 22,'none', 2012);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('The Man','Lover',23, 8, 'Joel Little', 2019);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('August','Folklore', 24, 2, 'Jack Antonoff', 2020);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Cruel Summer','Lover', 25,2, 'Jack Antonoff', 2019);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Dont Blame me','Reputation',26,0, 'Max Martin', 2017);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Enchanted','Speak Now', 27,1, 'none', 2010);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Back to December','Speak Now', 28,20,'none', 2010);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('Everything has Changed', 'Red',29,20,'Ed Sheeran',2012);
+INSERT INTO Taylor_Swift_songs(name, album_name, popularity, weeks, cowriter, release_year) VALUES ('End Game','Reputation',30,14,'Ed Sheeran',2017);
+
+
+CREATE TABLE Taylor_Swift_Albums (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, global_sales INTEGER, release INTEGER);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Taylor Swift', 6630000, 2006);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Holiday Collection', 1345000, 2007);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Fearless', 9970000, 2008);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Speak Now', 6355000, 2010);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Red', 7220000, 2012);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('1989', 10545000,2014);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Reputation', 3540000,2017);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Lover', 2170000, 2019);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Folklore', 2635000, 2020);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Evermore', 1430000, 2020);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Midnights', 1915000, 2022);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Fearless TV', 805000, 2021);
+INSERT INTO Taylor_Swift_Albums (name, global_sales, release) VALUES ('Red TV', 1135000, 2021);
+
+
+SELECT name, global_sales FROM Taylor_Swift_Albums ORDER BY global_sales;
+
+SELECT name, weeks FROM Taylor_Swift_songs ORDER BY weeks;
+
+SELECT Taylor_Swift_songs.name, Taylor_Swift_Albums.name 
+FROM Taylor_Swift_songs
+JOIN Taylor_Swift_Albums
+ON Taylor_Swift_songs.album_name = Taylor_Swift_Albums.name ORDER BY popularity;
